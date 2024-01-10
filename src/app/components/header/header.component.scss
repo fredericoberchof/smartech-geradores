@@ -1,0 +1,21 @@
+.itensHeader {
+  justify-content: center !important;
+}
+
+.btnContato {
+  color: #676770;
+  border-radius: 10px;
+  background: #ffbf0b;
+  border: none;
+
+  width: 130px;
+  height: 40px;
+  flex-shrink: 0;
+  transition: background-color 0.3s, color 0.3s; /* Adicionando a transição de cores */
+
+}
+
+.btnContato:hover {
+  background-color: #FFCD4B; /* Nova cor de fundo ao passar o mouse */
+  color: #fff; /* Nova cor do texto ao passar o mouse */
+}
