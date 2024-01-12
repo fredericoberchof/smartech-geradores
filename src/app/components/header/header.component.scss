@@ -3,10 +3,13 @@
 }
 .header {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.7); /* Altere o valor do último componente (alfa) para ajustar a transparência */
-
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Altere o valor do último componente (alfa) para ajustar a transparência */
 }
-
 
 .textoHeader {
   color: #333;
@@ -18,22 +21,4 @@
 
 .textoHeader:hover {
   color: #ff6600;
-}
-
-
-.btnContato {
-  color: #676770;
-  border-radius: 10px;
-  background: #ffbf0b;
-  border: none;
-
-  width: 130px;
-  height: 40px;
-  flex-shrink: 0;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.btnContato:hover {
-  background-color: #ffcd4b;
-  color: #fff;
 }
