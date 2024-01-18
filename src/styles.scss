@@ -6,3 +6,33 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+
+.btnContato {
+  color: #414141;
+  border-radius: 10px;
+  background: #ffbf0b;
+  border: none;
+
+  width: 130px;
+  height: 40px;
+  flex-shrink: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btnContato:hover {
+  background-color: #ffcd4b;
+  color: #fff;
+}
+
+
+.btnContatoVerde {
+  border-radius: 10px;
+  background: #48b548;
+
+  margin-top: 30px;
+}
+
+.btn:hover {
+  background-color: #3dd616; /* Cor alterada ao passar o mouse */
+}
+
