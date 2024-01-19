@@ -11,6 +11,20 @@
   height: 200px;
 }
 
+.imgBlog {
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px #0004;
+  width: 350px;
+  height: 300px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.imgBlog:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
 .textoSubTitulo {
   display: flex;
   width: 694px;
@@ -24,7 +38,7 @@
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
-  line-height: 26px; /* 173.333% */
+  line-height: 26px;
   letter-spacing: 0.75px;
 }
 
