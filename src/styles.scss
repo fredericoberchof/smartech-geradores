@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btnContato {
+  color: #414141;
+  border-radius: 10px;
+  background: #ffbf0b;
+  border: none;
+  font-weight: bold;
+
+  width: 200px;
+  height: 40px;
+  flex-shrink: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btnContato:hover {
+  background-color: #ffcd4b;
+  color: #fff;
+}
+
+
+.btnContatoVerde {
+  border-radius: 10px;
+  background: #48b548;
+
+  margin-top: 30px;
+}
+
+.btn:hover {
+  background-color: #48b548; /* Cor alterada ao passar o mouse */
+}

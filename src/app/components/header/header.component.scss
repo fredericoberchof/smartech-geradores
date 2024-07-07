@@ -1,0 +1,51 @@
+.itensHeader {
+  justify-content: center !important;
+}
+.header {
+  position: fixed;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  );
+}
+
+.logo-header {
+  cursor: pointer;
+}
+
+.itensHeader .nav-link {
+  position: relative;
+  color: #242424;
+  margin-right: 21px;
+}
+
+.itensHeader .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px; /* Espessura da linha */
+  bottom: 4px; /* Distância do texto */
+  left: 50%;
+  background-color: #FFBE0B; /* Cor da linha */
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+
+.itensHeader .nav-link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.textoHeader {
+  color: #333;
+  transition: color 0.3s ease;
+  cursor: pointer;
+
+  margin-right: 65px;
+}
+
+.textoHeader:hover {
+  color: #ff6600;
+}
