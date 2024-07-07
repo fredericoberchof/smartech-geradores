@@ -7,13 +7,18 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .btnContato {
   color: #414141;
   border-radius: 10px;
   background: #ffbf0b;
   border: none;
+  font-weight: bold;
 
-  width: 130px;
+  width: 200px;
   height: 40px;
   flex-shrink: 0;
   transition: background-color 0.3s, color 0.3s;
@@ -33,6 +38,5 @@ body {
 }
 
 .btn:hover {
-  background-color: #3dd616; /* Cor alterada ao passar o mouse */
+  background-color: #48b548; /* Cor alterada ao passar o mouse */
 }
-

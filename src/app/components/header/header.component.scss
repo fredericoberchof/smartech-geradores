@@ -8,7 +8,34 @@
     255,
     255,
     0.7
-  ); /* Altere o valor do último componente (alfa) para ajustar a transparência */
+  );
+}
+
+.logo-header {
+  cursor: pointer;
+}
+
+.itensHeader .nav-link {
+  position: relative;
+  color: #242424;
+  margin-right: 21px;
+}
+
+.itensHeader .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px; /* Espessura da linha */
+  bottom: 4px; /* Distância do texto */
+  left: 50%;
+  background-color: #FFBE0B; /* Cor da linha */
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+
+.itensHeader .nav-link:hover::after {
+  width: 100%;
+  left: 0;
 }
 
 .textoHeader {

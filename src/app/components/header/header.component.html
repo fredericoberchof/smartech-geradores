@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light ">
-  <div class="container-fluid ">
-    <a class="navbar-brand" href="#">Seu Logo</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <img class="logo-header" src="/assets/imagens/logo-preta.png" alt="Logo" style="height: 40px" (click)="scrollToTop()"/>
     <button
       class="navbar-toggler"
       type="button"
@@ -12,24 +12,42 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="itensHeader collapse navbar-collapse" id="navbarSupportedContent">
+    <div
+      class="itensHeader collapse navbar-collapse"
+      id="navbarSupportedContent"
+    >
       <div class="itensHeader">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center">
-          <li class=" nav-item">
-            <a class="textoHeader nav-link active" aria-current="page" href="#">Serviços</a>
+        <ul
+          class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center"
+        >
+          <li class="nav-item">
+            <a class="textoHeader nav-link active" aria-current="page" href="#"
+              >SERVIÇOS</a
+            >
           </li>
           <li class="nav-item">
-            <a class="textoHeader nav-link" href="#">Geradores</a>
+            <a class="textoHeader nav-link" href="#">GERADORES</a>
           </li>
           <li class="nav-item">
-            <a class="textoHeader nav-link" href="#">Blog</a>
+            <a class="textoHeader nav-link" href="#">SEJA UM PARCEIRO</a>
+          </li>
+          <li class="nav-item">
+            <a class="textoHeader nav-link" href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="textoHeader nav-link" href="#">CONTATO</a>
           </li>
         </ul>
-
       </div>
     </div>
     <form class="d-flex">
-      <button class="btnContato btn btn-outline-success" type="submit">Contato</button>
+      <button
+        class="btnContato btn btn-outline-success"
+        (click)="openWhatsApp()"
+        type="submit"
+      >
+        ORÇAMENTO RÁPIDO
+      </button>
     </form>
   </div>
 </nav>
