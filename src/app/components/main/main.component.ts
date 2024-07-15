@@ -5,8 +5,11 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './main.component.html',
-  styleUrl: './main.component.scss'
+  styleUrl: './main.component.scss',
 })
 export class MainComponent {
 
+  navigateToLocacaoGeradores(): void {
+    window.open('https://geradores.smartechgeradores.com.br/locacao-geradores', '_blank');
+  }
 }
