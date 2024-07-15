@@ -1,6 +1,6 @@
 .cover {
   height: 100vh; /* 100% da altura da viewport */
-  background-image: url("/assets/imagens/imagem-ponte.png");
+  background-image: url("/assets/imagens/smartech-geradores.png");
   background-size: cover; /* Cobrir toda a área com a imagem */
   background-position: center; /* Centralizar a imagem */
   background-repeat: no-repeat; /* Evitar repetição da imagem */
@@ -16,6 +16,11 @@
 
 .cover-content {
   // max-width: 600px; /* Largura máxima do conteúdo */
+}
+
+
+.shadowed {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); /* Cor e tamanho da sombra */
 }
 
 h1 {
