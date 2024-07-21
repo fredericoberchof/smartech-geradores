@@ -10,6 +10,6 @@ import { Component } from '@angular/core';
 export class MainComponent {
 
   navigateToLocacaoGeradores(): void {
-    window.open('https://geradores.smartechgeradores.com.br/locacao-geradores', '_blank');
+    window.open('https://geradores.smartechgeradores.com.br/locacao-de-gerador', '_blank');
   }
 }
